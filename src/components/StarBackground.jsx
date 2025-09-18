@@ -42,13 +42,13 @@ export const StarBackground = () => {
   };
 
   const generateMeteors = () => {
-    const numberOfMeteors = 4;
+    const numberOfMeteors = 0;
     const newMeteors = [];
 
     for (let i = 0; i < numberOfMeteors; i++) {
       newMeteors.push({
         id: i,
-        size: Math.random()* 20,
+        size: Math.random()* 0,
         x: Math.random() * 100,
         y: Math.random() * 20,
         delay: Math.random() * 15,
